@@ -1,3 +1,6 @@
 [submodule "stacklifecycle-oscli-test-plugin"]
 	path = stacklifecycle-oscli-test-plugin
 	url = https://github.com/stack-spot/stacklifecycle-oscli-test-plugin
+[submodule "stacklifecycle-oscli-test-template-pattern-regex"]
+	path = stacklifecycle-oscli-test-template-pattern-regex
+	url = https://github.com/stack-spot/stacklifecycle-oscli-test-template-pattern-regex
