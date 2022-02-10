@@ -4,3 +4,6 @@
 [submodule "stacklifecycle-oscli-test-template-pattern-regex"]
 	path = stacklifecycle-oscli-test-template-pattern-regex
 	url = https://github.com/stack-spot/stacklifecycle-oscli-test-template-pattern-regex
+[submodule "stacklifecycle-oscli-test-app"]
+	path = stacklifecycle-oscli-test-app
+	url = https://github.com/stack-spot/stacklifecycle-oscli-test-app
