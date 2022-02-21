@@ -1,0 +1,3 @@
+type: app
+description: Application test stackfile
+template: stacklifecycle-oscli-test-catalog/stacklifecycle-oscli-test-app
