@@ -1,5 +1,5 @@
 type: app
-description: Application test stackfile
+description: Application test stackfile with plugin
 template: stacklifecycle-oscli-test-catalog/stacklifecycle-oscli-test-app
 plugins:
   - plugin: stacklifecycle-oscli-test-catalog/plugin-test
