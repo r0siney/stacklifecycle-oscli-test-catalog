@@ -10,3 +10,6 @@
 [submodule "stacklifecycle-oscli-test-env"]
 	path = stacklifecycle-oscli-test-env
 	url = https://github.com/stack-spot/stacklifecycle-oscli-test-env
+[submodule "stacklifecycle-oscli-test-template-env"]
+	path = stacklifecycle-oscli-test-template-env
+	url = https://github.com/stack-spot/stacklifecycle-oscli-test-template-env
