@@ -1,0 +1,9 @@
+name: local-template-to-delete
+description: Template to be used in delete template integration test
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
