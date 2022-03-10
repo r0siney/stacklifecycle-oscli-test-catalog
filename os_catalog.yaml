@@ -16,4 +16,4 @@ useCases:
     content: usecase2.md
   - title: Caso de uso 3
     content: usecase3.md
-    stackfile: stackfiles/env.yaml
+    stackfile: env.yaml
