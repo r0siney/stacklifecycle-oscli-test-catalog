@@ -11,7 +11,7 @@ about: about.md
 useCases:
   - title: Caso de uso 1
     content: usecase1.md
-    stackfile: stackfiles/app-with-plugin.yaml
+    stackfile: stackfiles/app-with-plugin.yml
   - title: Caso de uso 2
     content: usecase2.md
   - title: Caso de uso 3
