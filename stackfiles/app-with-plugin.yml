@@ -1,3 +1,4 @@
+displayName: Application test stackfile with plugin
 type: app
 description: Application test stackfile with plugin
 template: stacklifecycle-oscli-test-catalog/template-test
