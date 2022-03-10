@@ -1,2 +1,19 @@
 name: stacklifecycle-oscli-test-catalog
 description: Enim minim dolor esse nisi mollit non consequat. Nostrud qui elit ullamco nulla id do. Magna non incididunt Lorem id nostrud nostrud dolore. Deserunt mollit ex exercitation eu tempor minim amet in.
+displayName: Stack API
+picture: "stack.png"
+category: Backend
+compatibility:
+  - net5.0
+  - net6.0
+technologies: [".NET", "C#", "Api", "OpenAPI", "Splunk", "Prometheus", "Jaeger", "AWS SQS", "AWS DynamoDB", "Docker", "AWS ECS/Fargate"]
+about: about.md
+useCases:
+  - title: Caso de uso 1
+    content: usecase1.md
+    stackfile: stackfiles/app-with-plugin.yaml
+  - title: Caso de uso 2
+    content: usecase2.md
+  - title: Caso de uso 3
+    content: usecase3.md
+    stackfile: stackfiles/env.yaml
