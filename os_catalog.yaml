@@ -8,6 +8,7 @@ compatibility:
   - net6.0
 technologies: [".NET", "C#", "Api", "OpenAPI", "Splunk", "Prometheus", "Jaeger", "AWS SQS", "AWS DynamoDB", "Docker", "AWS ECS/Fargate"]
 about: about.md
+source: https://github.com/org-x/repo-real
 useCases:
   - title: Caso de uso 1
     content: usecase1.md
