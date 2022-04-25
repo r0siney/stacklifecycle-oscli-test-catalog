@@ -1,0 +1,15 @@
+name: global-computed-input-template
+description: Template that uses a global-computed-input
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project_name
+computed-inputs:
+  computed_input_new: "{{inputs.project_name|replace('_', '-')|upper}}"
+global-computed-inputs:
+  global_computed_input: "{{inputs.project_name|replace('_', '-')|title }}"
+  
+  

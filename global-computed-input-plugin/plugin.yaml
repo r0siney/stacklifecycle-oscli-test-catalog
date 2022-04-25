@@ -1,0 +1,4 @@
+name: global-computed-input-plugin
+description: Plugin that uses a global-computed-input
+types:
+  - app
