@@ -1,0 +1,5 @@
+type: app
+description: Describe your stackfile explaining its purpose
+template: stacklifecycle-oscli-test-catalog/global-computed-input-template
+plugins:
+- plugin: stacklifecycle-oscli-test-catalog/global-computed-input-plugin
