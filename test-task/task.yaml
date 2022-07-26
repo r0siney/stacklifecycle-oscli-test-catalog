@@ -1,0 +1,18 @@
+name: test-task
+description: This is a test stack
+inputs:
+- label: Commit message
+  type: text
+  default: example
+  name: message
+  cache: true
+  required: true
+  global_input: false
+supported_os:
+- windows
+- linux
+- mac
+requirements_check:
+- check_command: git --version
+  info: git is not installed
+command: git add . ; git commit -m "{{inputs.message}}"
