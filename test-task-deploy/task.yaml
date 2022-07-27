@@ -8,11 +8,11 @@ inputs:
   cache: true
   required: true
   global_input: false
-supported_os:
+supported-os:
 - windows
 - linux
 - mac
-requirements_check:
-- check_command: git --version
+requirements-check:
+- check-command: git --version
   info: git is not installed
 command: git add . ; git commit -m "{{inputs.message}}"
