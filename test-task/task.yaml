@@ -13,6 +13,7 @@ supported-os:
 - linux
 - mac
 requirements-check:
-- check-command: git --version
-  info: git is not installed
+  dependency-check:
+    check-command: git --version
+    info: git is not installed
 command: git add . ; git commit -m "{{inputs.message}}"
