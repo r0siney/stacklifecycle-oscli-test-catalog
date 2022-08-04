@@ -16,4 +16,4 @@ requirements-check:
   dependency-example:
     check-command: git --version
     info: git is not installed
-command: git add . ; git commit -m "{{inputs.message}}"
+command: echo $HOME
