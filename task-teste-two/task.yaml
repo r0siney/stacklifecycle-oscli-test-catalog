@@ -14,6 +14,6 @@ supported-os:
 - mac
 requirements-check:
   dependency-example:
-    check-command: git --version
-    info: git is not installed
+    check-command: nothing --version
+    info: nothing is not installed
 command: echo "Hello from task two"
