@@ -8,12 +8,26 @@ inputs:
   cache: true
   required: true
   global_input: false
+- label: Owner
+  type: text
+  default: owner
+  name: owner
+  required: true
 supported-os:
 - windows
 - linux
 - mac
 requirements-check:
   dependency-example:
-    check-command: git --version
+    check-command: 
+      windows: git --version
+      linux: git --version
+      mac: git --version
     info: git is not installed
-command: echo $HOME
+command:
+  windows: |
+    echo "i'm on windows with input: {{inputs.owner}} and {{inputs.message}}"
+  linux: |
+    echo "i'm on linux with input: {{inputs.owner}} and {{inputs.message}}"
+  mac: |
+    echo "i'm on mac with input: {{inputs.owner}} and {{inputs.message}}"
