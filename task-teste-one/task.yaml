@@ -1,5 +1,5 @@
-name: test-task
-description: This is a test stack
+name: task-teste-one
+description: This is just a test task that echos to console
 inputs:
 - label: Commit message
   type: text
@@ -13,7 +13,7 @@ supported-os:
 - linux
 - mac
 requirements-check:
-  dependency-check:
+  dependency-example:
     check-command: git --version
     info: git is not installed
 command: git add . ; git commit -m "{{inputs.message}}"
