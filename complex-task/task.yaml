@@ -44,6 +44,6 @@ command:
     git --version
     echo "Sleeping for 2 seconds"
     timeout 2
-    echo "Printing directories
+    echo "Printing directories"
     dir
     echo "Finishing task"
