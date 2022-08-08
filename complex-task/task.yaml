@@ -1,0 +1,49 @@
+name: complex-task
+description: Runs a more complex task
+inputs:
+- label: User
+  type: text
+  default: my-user
+  name: user
+  required: 'true'
+- label: password
+  type: password
+  default: my-pass
+  name: password
+  required: 'true'
+supported-os:
+- windows
+- linux
+- mac
+requirements-check:
+  dependency-example:
+    check-command: git --version
+    info: git is not installed
+command: 
+  linux: |
+    echo "Running command for {{inputs.user}} with pass {{inputs.password}}"
+    echo "checking git version"
+    git --version
+    echo "Sleeping for 2 seconds"
+    sleep 2
+    echo "Printing disk free"
+    df
+    echo "Finishing task"
+  mac: |
+    echo "Running command for {{inputs.user}} with pass {{inputs.password}}"
+    echo "checking git version"
+    git --version
+    echo "Sleeping for 2 seconds"
+    sleep 2
+    echo "Printing disk free"
+    df
+    echo "Finishing task"
+  windows: |
+    echo "Running command for {{inputs.user}} with pass {{inputs.password}}"
+    echo "checking git version"
+    git --version
+    echo "Sleeping for 2 seconds"
+    timeout 2
+    echo "Printing directories
+    dir
+    echo "Finishing task"
