@@ -1,0 +1,14 @@
+name: task-build-docker
+description: Run task building dockerfile before run
+supported-os:
+- windows
+- linux
+- mac
+container:
+  image: Dockerfile.test
+requirements-check:
+  dependency-example:
+    check-command: docker --version
+    info: docker is not installed
+command: |
+  curl

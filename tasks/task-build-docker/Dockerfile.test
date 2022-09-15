@@ -1,0 +1,6 @@
+FROM alpine:3.16.2
+
+RUN echo "image for test"
+
+# copy fake curl
+COPY curl /usr/bin/curl
