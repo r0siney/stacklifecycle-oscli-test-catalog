@@ -3,7 +3,7 @@ description: Running docker task using windows container
 supported-os:
 - windows
 container:
-  image: dockerfile
+  image: Dockerfile
   entrypoint:
     - cmd.exe
     - /c
