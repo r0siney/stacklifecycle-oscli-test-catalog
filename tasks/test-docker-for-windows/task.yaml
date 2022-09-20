@@ -1,0 +1,16 @@
+name: test-docker-for-windows
+description: Running docker task using windows container
+supported-os:
+- windows
+container:
+  image: dockerfile
+  entrypoint:
+    - cmd.exe
+    - /c
+requirements-check:
+  docker:
+    check-command: docker --version
+    info: docker is not installed
+command:
+  echo "i am windows"
+  systeminfo
